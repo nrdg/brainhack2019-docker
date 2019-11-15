@@ -1,2 +1,4 @@
 graphviz
 nano
+s3fs
+fuse

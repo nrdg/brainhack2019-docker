@@ -1,4 +1,4 @@
-name: pangeo
+name: brainhack
 channels:
   - conda-forge
 dependencies:
@@ -19,9 +19,14 @@ dependencies:
   - ipywidgets==7.4.2
   - intake==0.5.1
   - prefect==0.6.3
-  - jupyterlab==1.1.2
   - awscli==1.16.249
   - pip==19.2.3
   - python-graphviz
+  - jupyterlab==1.1.2
+  - jupyterhub==1.0.0
+  - dask==2.7.0
+  - scikit-learn==0.21.3
   - pip:
-    - allensdk
+    - allensdk==1.1.1
+    - neuroglia==0.1.0
+    - neurodsp==2.0.0
